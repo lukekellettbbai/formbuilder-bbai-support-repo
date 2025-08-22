@@ -1,0 +1,44 @@
+{
+  "name": "FormBuilderCrashTestProject",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.13.5",
+    "@emotion/css": "^11.13.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "6.4.8",
+    "@react-form-builder/components-rsuite": "^6.1.0",
+    "@react-form-builder/components-signature": "^6.1.0",
+    "@react-form-builder/core": "^6.1.0",
+    "@react-form-builder/designer": "^6.1.0",
+    "mobx": "6.9.0",
+    "mobx-react": "^9.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-number-format": "^5.4.0",
+    "rsuite": "5.64.2",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "globals": "^16.1.0",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^8.32.1",
+    "vite": "^5.3.1"
+  },
+  "packageManager": "yarn@4.5.0"
+}
